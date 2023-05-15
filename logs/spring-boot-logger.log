@@ -22921,3 +22921,29 @@ com.example.traincaroperationsaccountingsystem.exception.TrainCarNotFoundExcepti
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:833)
+13:51:39.388 [main] INFO  c.e.t.TrainCarOperationsAccountingSystemApplication - Starting TrainCarOperationsAccountingSystemApplication using Java 17.0.5 with PID 18788 (D:\IdeaProjects\TrainCarOperationsAccountingSystem\target\classes started by tmuxa in D:\IdeaProjects\TrainCarOperationsAccountingSystem)
+13:51:39.392 [main] INFO  c.e.t.TrainCarOperationsAccountingSystemApplication - No active profile set, falling back to 1 default profile: "default"
+13:51:40.344 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+13:51:40.469 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 115 ms. Found 7 JPA repository interfaces.
+13:51:41.390 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:51:41.405 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:51:41.406 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:51:41.407 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+13:51:41.587 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:51:41.588 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2133 ms
+13:51:41.865 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:51:42.155 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6282b9f5
+13:51:42.158 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:51:42.260 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+13:51:42.334 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+13:51:42.808 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13:51:44.229 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+13:51:44.248 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+13:51:45.143 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+13:51:45.734 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@70ccb3bf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10ffe32f, org.springframework.security.web.context.SecurityContextHolderFilter@5d8a1456, org.springframework.security.web.header.HeaderWriterFilter@7603cfc2, org.springframework.security.web.authentication.logout.LogoutFilter@769f6023, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@242c4a94, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e1953f7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26f07261, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13868c41, org.springframework.security.web.access.ExceptionTranslationFilter@3a5b1af7, org.springframework.security.web.access.intercept.AuthorizationFilter@1dbfbd94]
+13:51:46.175 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:51:46.213 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+13:51:46.231 [main] INFO  c.e.t.TrainCarOperationsAccountingSystemApplication - Started TrainCarOperationsAccountingSystemApplication in 7.424 seconds (process running for 8.56)
+14:06:03.793 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:06:03.797 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:06:03.805 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

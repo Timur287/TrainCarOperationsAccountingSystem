@@ -31,7 +31,7 @@ public class SecurityConfiguration {
         http.httpBasic().and().authorizeHttpRequests(auth -> {
                 auth.requestMatchers("/api/v1").permitAll();
                 auth.requestMatchers("/api/v1/auth","/api/v1/auth/**").permitAll();
-                auth.requestMatchers("/api/v1/trainCars","/api/v1/trainCars/**").hasAnyRole("USER","ADMIN");
+                auth.requestMatchers("/api/v1/**","/api/v1/**").hasAnyRole("USER","ADMIN");
                 auth.anyRequest().authenticated();
             }
         ).csrf().disable().cors().disable();
